@@ -3,3 +3,6 @@ services:
     name: memcached
     env: docker
     plan: standard
+  envVars:
+    - key: MEMCACHED_CACHE_SIZE
+      value: 128

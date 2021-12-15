@@ -1,1 +1,1 @@
-FROM memcached
+FROM bitnami/memcached
